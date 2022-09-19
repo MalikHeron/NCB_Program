@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: ncb.program.Main
+Class-Path: beansbinding-1.2.1.jar javax.persistence.jar mysql-connector
+ -java-8.0.17.jar
+
