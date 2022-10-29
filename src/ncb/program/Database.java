@@ -11,8 +11,8 @@ public class Database {
     static final String JBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/";
 
-    static final String USER = "Malik";
-    static final String PASS = "Bo$$2001";
+    static final String USER = "root";
+    static final String PASS = "";
 
     public static double createAdminDatabase() throws Exception {
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);

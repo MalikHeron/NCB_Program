@@ -112,8 +112,8 @@ public class AccountSummary {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/users";
-            String root = "Malik";
-            String password = "Bo$$2001";
+            String root = "root";
+            String password = "";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url, root, password);

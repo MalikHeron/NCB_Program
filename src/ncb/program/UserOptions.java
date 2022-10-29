@@ -1,7 +1,5 @@
 package ncb.program;
 
-import org.jvnet.winp.Main;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -348,8 +346,8 @@ public class UserOptions {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/users";
-            String username = "Malik";
-            String password = "Bo$$2001";
+            String username = "root";
+            String password = "";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url, username, password);
@@ -1014,8 +1012,8 @@ class TransferCash {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/users";
-            String username = "Malik";
-            String password = "Bossheron";
+            String username = "root";
+            String password = "";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url, username, password);
@@ -1041,8 +1039,8 @@ class TransferCash {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/users";
-            String username = "Malik";
-            String password = "Bossheron";
+            String username = "root";
+            String password = "";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url, username, password);

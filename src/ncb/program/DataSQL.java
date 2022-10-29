@@ -475,8 +475,8 @@ public class DataSQL {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/users";
-            String username = "Malik";
-            String password = "Bo$$2001";
+            String username = "root";
+            String password = "";
             Class.forName(driver);
 
             return DriverManager.getConnection(url, username, password);
@@ -491,8 +491,8 @@ public class DataSQL {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost/admin";
-            String username = "Malik";
-            String password = "Bo$$2001";
+            String username = "root";
+            String password = "";
             Class.forName(driver);
 
             return DriverManager.getConnection(url, username, password);
